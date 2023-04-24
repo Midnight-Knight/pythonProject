@@ -1,0 +1,3 @@
+digraph "Module Hierarchy" {
+	"module_test3.py" [label=module_test3]
+}
