@@ -68,13 +68,13 @@ def test_withdraw(amount):
     new_balance = account.check_balance()
     assert new_balance == f"Баланс счета 1: {initial_balance - amount}"
 
-# тестирование метода check_balance
+
 def test_check_balance():
     account = BankAccount(1)
     balance = account.check_balance()
     assert balance == "Баланс счета 1: 0.0"
 
-# тестирование метода close_account
+
 def test_close_account():
     account = BankAccount(1)
     account.create_account(100)

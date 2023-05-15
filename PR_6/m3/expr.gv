@@ -1,0 +1,10 @@
+digraph G {
+n0 [label="+" shape=circle]
+n1 [label="7" shape=circle]
+n2 [label="*" shape=circle]
+n3 [label="3" shape=circle]
+n4 [label="2" shape=circle]
+n2 -> n4
+n2 -> n5
+n0 -> n2
+n0 -> n5}
